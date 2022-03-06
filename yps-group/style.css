@@ -1,0 +1,74 @@
+/* Responsive */
+.garis{
+    border: 8px solid #ffff;
+    transform: rotate(26.29deg);
+}
+/* Desktop */
+@media (min-width: 992px) {
+   .navbar{
+       background: none !important;
+   }
+    .navbar-brand{
+       font-size: 35px !important;
+   }
+    .nav-link{
+        font-size: 16px !important;
+        margin: 0 10px !important;
+    }
+    .nav-link:hover{
+        color: #EADBCD !important;
+    }
+    .latar img{
+        height: 100% !important;
+    }
+    .latar1{
+        margin-top: -50vh !important;
+        margin-left: 30vh !important;
+    }
+    .konten1{
+        margin-top: -50px !important;
+    }
+    .konten1 img{
+        width: 35vh !important;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+    .konten h1{
+        font-size: 85px !important;
+    }
+    .garis{
+        margin-top: -45vh !important;
+        width: 300px !important;
+        height: 380px !important;
+    }
+ }
+
+/* Handphone */
+@media (max-width: 576px) {
+    .navbar{
+        background: white;
+    }
+    .nav-link{
+        font-size: 14px;
+        margin: unset;
+    }
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .latar img{
+        height: 300px;
+    }
+    .konten1{
+        margin-top: -30px;
+    }
+    .konten1 img{
+        width: 15vh;
+    }
+    .konten h1{
+        font-size: 30px;
+    }
+    .latar1{
+        margin-top: -20vh;
+        margin-left: 10px;
+    }
+}
