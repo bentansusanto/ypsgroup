@@ -1,8 +1,4 @@
 /* Responsive */
-.garis{
-    border: 8px solid #ffff;
-    transform: rotate(26.29deg);
-}
 /* Desktop */
 @media (min-width: 992px) {
    .navbar{
@@ -30,16 +26,55 @@
     }
     .konten1 img{
         width: 35vh !important;
-        position: relative !important;
-        z-index: 1 !important;
     }
     .konten h1{
-        font-size: 85px !important;
+        font-size: 5rem !important;
+    }
+    .konten h1:last-child{
+        margin-left: 50px !important;
     }
     .garis{
         margin-top: -45vh !important;
-        width: 300px !important;
-        height: 380px !important;
+        margin-left: 2vh !important;
+        width: 30vh !important;
+        height: 45vh !important;
+        border: 8px solid #ffff !important;
+    }
+    .tentang{
+        display: block !important;
+    }
+    .tentang1{
+        margin-top: -55vh !important;
+        margin-left: -10vw !important;
+    }
+    .abot p{
+        width: 70vh !important;
+        font-size: 16px !important;
+    }
+    .abot p:nth-child(2){
+        padding-top: 10px !important;
+    }
+    .abot h3{
+        font-size: 4rem !important;
+    }
+    .abot1{
+        display: block !important;
+        margin-top: -5vh !important;
+    }
+    .abot1 img{
+        width: 25vh !important;
+    }
+    .abot1 img:first-child{
+        margin-top: 20vh !important;
+        position: relative;
+        z-index: 1;
+    }
+    .abot1 img:last-child{
+        width: 30vh !important;
+        margin-left: -5vh !important;
+    }
+    .fitur{
+        margin-top: 20vh !important;
     }
  }
 
@@ -67,8 +102,38 @@
     .konten h1{
         font-size: 30px;
     }
+    .konten h1:last-child{
+        margin-left: 30px;
+    }
     .latar1{
         margin-top: -20vh;
         margin-left: 10px;
     }
+    .garis{
+        margin-top: -20vh;
+        width: 100px;
+        height: 150px;
+        border: 5px solid #ffff;
+    }
+    .tentang{
+        display: none;
+    }
+    .tentang1{
+            margin-top: 15vh;
+            margin-left: unset;
+    }
+    .abot h3{
+        font-size: 3rem;
+    }
+    .abot p{
+        width: 90vw;
+        font-size: 14px;
+    }
+    .abot p:nth-child(2){
+        padding-top: 10px;
+    }
+    .abot1{
+        display: none;
+    }
+ 
 }
