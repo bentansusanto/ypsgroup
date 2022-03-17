@@ -1,0 +1,22 @@
+/* Responsive */
+/* Desktop */
+@media(min-width: 992px){
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+    
+
+}
+
+/* Handphone */
+@media(max-width: 575px){
+    .navbar-brand{
+        font-size: 1.2rem;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+}

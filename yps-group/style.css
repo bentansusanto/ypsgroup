@@ -1,3 +1,4 @@
+
 /* Responsive */
 /* Desktop */
 @media (min-width: 992px) {
@@ -74,8 +75,31 @@
         margin-left: -5vh !important;
     }
     .fitur{
-        margin-top: 20vh !important;
+        margin-top: 30vh;
+        margin-left: -10vw;
     }
+    .fitu img, .fitu1 img, .fitu2 img, .fitu4 img{
+        width: 8vw;
+        margin-left: 1vh;
+    }
+    .fitu3 img, .fitu5 img{
+        margin-left: 2vh;
+    }
+    .bawah1{
+        margin-top: -30vh;
+    }
+    .bawa h3{
+        font-size: 3rem;
+    }
+    .bawa p{
+        margin-top: -5px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .bwh img, .bwh1 img, .bwh2 img{
+        width: 5vw;
+    }
+    
  }
 
 /* Handphone */
@@ -94,13 +118,10 @@
         height: 300px;
     }
     .konten1{
-        margin-top: -30px;
-    }
-    .konten1 img{
-        width: 15vh;
+        display: none;
     }
     .konten h1{
-        font-size: 30px;
+        font-size: 50px;
     }
     .konten h1:last-child{
         margin-left: 30px;
@@ -119,21 +140,84 @@
         display: none;
     }
     .tentang1{
-            margin-top: 15vh;
-            margin-left: unset;
+        margin-top: 15vh;
+        margin-left: unset;
     }
     .abot h3{
         font-size: 3rem;
+        text-align: center;
     }
     .abot p{
         width: 90vw;
         font-size: 14px;
+        text-align: center;
     }
     .abot p:nth-child(2){
         padding-top: 10px;
     }
     .abot1{
         display: none;
+    } 
+    .col-sm{
+        padding-top: 20px;
     }
- 
+    .item1 p, .item4 p{
+        width: 70%;
+    }
+    .fitur{
+        margin-top: 15vh;
+    }
+    .fitu1{
+        padding-left: 20px;
+    }
+    .fitu4{
+        padding-left: 20px;
+    }
+    .fitu img, .fitu1 img, .fitu2 img, .fitu3 img, .fitu4 img, .fitu5 img{
+        width: 25vw;
+    }
+    .fitu p, .fitu1 p, .fitu2 p, .fitu3 p, .fitu4 p, .fitu5 p{
+        font-size: 14px;
+    }
+    .fitu img, .fitu2 img{
+        margin-left: 2vh;
+    }
+    .fitu3 img, .fitu4 img, .fitu5 img{
+        margin-left: 1vh;
+    }
+    .fitu1 img{
+        margin-left: 1vh;
+    }
+    .bawah{
+        display: none;
+    }
+    .bawah1{
+        background-color: #E7D2BF;
+        width: 100vw;
+        margin-top: 10vh;
+        margin-left: -10px;
+    }
+    .bawa{
+        padding-top: 20px;
+    }
+    .bawa h3{
+        font-size: 1.5rem;
+    }
+    .bawa p{
+        margin-top: -5px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .bwh img, .bwh1 img, .bwh2 img{
+        width: 12vw;
+    }
+    .bwh1 img, .bwh2 img{
+        margin-left: -20px;
+    }
+    .bwh3 img, .bwh4 img{
+        width: 6vw;
+    }
+    .bwh4 img{
+        margin-left: -10px;
+    }
 }
