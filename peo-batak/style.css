@@ -1,0 +1,232 @@
+/* Responsive */
+/* Desktop */
+@media(min-width: 992px){
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .latar img{
+        width: 100vw;
+        height: 100vh;
+    }
+    .latar1{
+        margin-top: -50vh;
+        margin-left: 45vw;
+    }
+    .latar1 h2{
+        font-size: 4.5rem;
+    }.tentang{
+        margin-top: 28vh;
+    }
+    .tentang img{
+        width: 100%;
+        height: 100%;
+    }
+    .tentang1{
+        margin-top: -55vh;
+    }
+    .tentang-gambar{
+        width: 18.8vw;
+        height: 42.5vh;
+    }
+    .tentang-gambar img{
+        width: 18vw;
+    }
+    .tentang-conten h3{
+        font-size: 4rem;
+    }
+    .tentang-conten p{
+        font-size: 16px;
+        width: 75%;
+    }
+    .quotes{
+        margin-top: 12.5vh;
+    }
+    .quotes img{
+        width: 100vw;
+    }
+    .quotes-content{
+        margin-top: -30vh;
+        margin-left: 28vw;
+    }
+    .quotes-content p{
+        font-size: 26px;
+        width: 60%;
+    }
+    .projek{
+        margin-top: 35vh;
+    }
+    .projek h3{
+        font-size: 3rem;
+    }
+    .projek-peo{
+        justify-content: center;
+        margin-left: 8vh;
+    }
+    .pro, .pro1, .pro2{
+        margin-top: 10vh;
+        margin-left: 2vh;
+        background-color: #0909096b;
+        width: 18vw;
+    }
+    .pro1{
+        margin-left: -2vh;
+    }
+    .pro2{
+        margin-left: -6vh;
+    }
+
+    .pro img, .pro1 img, .pro2 img{
+        width: 18vw;
+    }
+    
+    .bawah img:last-child{
+        margin-top: -30px;
+    }
+    .bawah1{
+        margin-top: -45vh;
+    }
+    .bawah1 h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .image1-peo{
+        justify-content: center;
+    }
+    .image-peo img{
+        width: 5vw;
+        margin-left: -20px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .social img{
+        margin-left: -10px;
+    }
+    .links{
+        width: 40%;
+        margin-left: 27vw;
+        margin-top: 4vh;
+        justify-content: center;
+    }
+    .links a{
+        font-size: 14px;
+    }
+}
+
+/* Handphone*/
+@media(max-width: 575px){
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    .nav-link{
+        font-size: .8rem;
+    }
+    .latar img{
+        width: 100vw;
+        height: 50vh;
+    }
+    .latar1{
+        margin-top: -30vh;
+    }
+    .latar1 h2{
+        font-size: 2.5rem;
+    }
+    .tentang img{
+        display: none;
+    }
+    .tentang1{
+        margin-top: 25vh;
+    }
+    .tentang-gambar{
+        border: unset;
+    }
+    .tentang-gambar img{
+        width: 40vw;
+        margin-left: 8vh;
+    }
+    .tentang-conten{
+        margin-top: 8vh;
+    }
+    .tentang-conten h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .tentang-conten p{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .quotes{
+        margin-top: 12.5vh;
+    }
+    .quotes img{
+        width: 100vw;
+        height: 35vh;
+    }
+    .quotes-content{
+        margin-top: -20vh;
+        margin-left: 8vw;
+    }
+    .quotes-content p{
+        font-size: 18px;
+        width: 90%;
+    }.projek{
+        margin-top: 20vh;
+    }
+    .projek h3{
+        font-size: 2.5rem;
+    }
+    .pro, .pro1, .pro2{
+        margin-top: 5vh;
+        margin-left: 12vh;
+        background-color: #0909096b;
+        width: 50vw;
+    }
+    .pro1{
+        margin-top: 3vh;
+    }
+    .pro2{
+        margin-top: 3vh;
+    }
+    .pro img, .pro1 img, .pro2 img{
+        width: 50vw;
+    }
+    .bawah img{
+        display: none;
+    }
+    .bawah1{
+        background-color:#EADBCD;
+        width: 100vw;
+        margin-top: -5vh;
+        padding: 10px 0px;
+    }
+    .bawah1 h3{
+        font-size: 2rem;
+        text-align: left;
+    }
+    .image1-peo{
+        justify-content: left;
+        padding: 0 20px;
+    }
+    .image-peo img{
+        width: 12vw;
+        margin-left: -20px;
+    }
+    .social{
+        justify-content: left;
+        padding: 0 20px;
+    }
+    .social img{
+        margin-left: -15px;
+    }
+    .links{
+        margin: 10px -10px;
+        justify-content: left;
+    }
+    .links a{
+        font-size: 14px;
+    }
+    
+}

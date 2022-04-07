@@ -5,18 +5,244 @@
         font-size: 2rem;
     }
     .nav-link{
-        font-size: 18px;
+        font-size: 1rem;
+    }
+    .latar{
+        margin-top: 35vh;
+    }
+    .latar p{
+        width: 85%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .latar h5{
+        font-size: 2rem;
+    }
+    .latar h3{
+        font-size: 3rem;
+    }
+    .latar button{
+        width: 8vw;
+        height: 4.5vh;
+        font-size: 16px;
+    }
+    .latar-images img{
+        margin-top: -2vh;
+        width: 18vw;
+    }
+    .latar-images img:nth-child(1){
+        margin-left: 20px;
+        margin-top: -20vh;
+    }
+    .latar-images img:nth-child(3){
+        margin-left: 40px;
+        margin-top: -15vh;
+    }
+    .latar-images img:nth-child(2){
+        margin-left: -5vh;
+        position: relative;
+        z-index: -2;
+    }
+    .quotes{
+        margin-top: 20vh;
+    }
+    .quotes1-content{  
+        margin-top: -35vh;
+        margin-left: 55vh;
+    }
+    .quotes1-content p{
+        width: 50%;
+        color: #ffff;
+        font-size: 1.6rem;
+    }
+    .package{
+        margin-top: 35vh;
+    }
+    .package h3{
+        font-size: 5.5rem;
+        text-align: center;
+    }
+    .package h5{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: -6vh;
+    }
+    .wedpack1{
+        margin-top: 20vh;
+    }
+    .wedpack2{
+        margin-top: 20vh;
+        margin-left: -20vh;
+    }
+    .wedpack2 img{
+        padding-left: 50px;
+    }
+
+    .wedpack1 p{
+        width: 60%;
+    }
+    .wedpack2 p{
+        width: 100%;
+    }
+    .wedpack3 p{
+        width: 60%;
+    }
+    .bawah img:last-child{
+        margin-top: -30px;
+    }
+    .bawah1{
+        margin-top: -45vh;
+    }
+    .bawah1 h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .image1-peo{
+        justify-content: center;
+    }
+    .image-peo img{
+        width: 5vw;
+        margin-left: -20px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .social img{
+        margin-left: -10px;
+    }
+    .links{
+        width: 40%;
+        margin-left: 27vw;
+        margin-top: 4vh;
+        justify-content: center;
+    }
+    .links a{
+        font-size: 14px;
     }
     
-
 }
-
-/* Handphone */
+/* Handphone*/
 @media(max-width: 575px){
     .navbar-brand{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .nav-link{
+        font-size: .8rem;
+    }
+    .latar{
+        margin-top: 20vh;
+    }
+    .latar p{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .latar h5{
+        font-size: 2rem;
+    }
+    .latar h3{
+        font-size: 2.5rem;
+    }
+    .latar button{
+        width: 25vw;
+        height: 4.5vh;
+        font-size: 14px;
+    }
+    .latar-images img{
+        margin-top: 5vh;
+        width: 44vw;
+        padding-bottom: 30px;
+    }
+    .latar-images img:nth-child(1){
+        margin-left: 20px;
+        margin-top: -20vh;
+    }
+    .latar-images img:nth-child(3){
+        margin-left: 40px;
+        margin-top: -17vh;
+    }
+    .latar-images img:nth-child(2){
+        margin-left: -5vh;
+        position: relative;
+        z-index: -2;
+    }
+    .quotes{
+        margin-top: 15vh;
+    }
+    .quotes img{
+        width: 100%;
+        height: 30vh;
+    }
+    .quotes1-content{
+        margin-top: -20vh;
+    }
+    .quotes1-content p{
+        font-size: 18px;
+        color: #ffff;
+    }
+    .package{
+        margin-top: 25vh;
+    }
+    .package h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .package h5{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: -6vh;
+    }
+    .wedpack1 img, .wedpack2 img, .wedpack3 img{
+        width: 40vw;
+    }
+    .wedpack1 p, .wedpack2 p, .wedpack3 p{
+        padding-top: 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .wedpack1 h4, .wedpack2 h4, .wedpack3 h4{
+        padding-top: 10px;
         font-size: 16px;
+    }
+    .wedpack1{
+        margin-top: 15vh;
+    }
+    .wedpack2, .wedpack3{
+        margin-top: 5vh;
+    }
+    .bawah img{
+        display: none;
+    }
+    .bawah1{
+        background-color:#EADBCD;
+        width: 100vw;
+        margin-top: -5vh;
+        padding: 10px 0px;
+    }
+    .bawah1 h3{
+        font-size: 2rem;
+        text-align: left;
+    }
+    .image1-peo{
+        justify-content: left;
+        padding: 0 20px;
+    }
+    .image-peo img{
+        width: 12vw;
+        margin-left: -20px;
+    }
+    .social{
+        justify-content: left;
+        padding: 0 20px;
+    }
+    .social img{
+        margin-left: -15px;
+    }
+    .links{
+        margin: 10px -10px;
+        justify-content: left;
+    }
+    .links a{
+        font-size: 14px;
     }
 }

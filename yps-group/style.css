@@ -1,8 +1,395 @@
+/* Large Desktop */
+@media only screen and (max-width: 1440px) {
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .latar img{
+        width: 100%;
+        height: unset;
+    }
+    .latar1{
+        margin-top: -35%;
+    }
+    .konten{
+        margin-left: 20%;
+    }
+    .konten h1{
+        font-size: 6rem;
+    }
+    .konten h1:last-child{
+        margin-left: 70px;
+    }
+    .konten1 img{
+        width: 30vw;
+    }
+    .konten1{
+        margin-top: -20%;
+    }
+    .tentang{
+        display: block;
+        margin-top: 10%;
+    }
+    .tentang img{
+        width: 100vw;
+        height: 80vh;
+    }
+    .tentang1{
+        margin-top: -35%;
+        padding: 0 10%;
+    }
+    .abot{
+        margin-right: unset;
+        margin-top: 10%;
+    }
+    .abot img{
+        width: 35%;
+    }
+    .abot img:first-child{
+        float: right;
+    }
+    .abot img:last-child{
+        margin-left: 40%;
+        margin-top: -30%;
+        position: relative;
+        z-index: 1;
+    }
+    .abot1{
+        padding-top: 30px;
+    }
+    .abot1 h3{
+        font-size: 4rem;
+    }
+    .abot1 p{
+        font-weight: 400;
+        font-size: 1rem;
+        width: 85%;
+    }
+    .fitur{
+        margin-top: 10%;
+    }
+    .fiturs{
+        width: 70%;
+        margin: auto;
+    }
+    .fitu, .fitu3{
+       margin: 10% 10%;
+       padding: auto;
+    }
+    .fitu3{
+        padding-top: 6%;
+    }
+    .fitu img, .fitu3 img{
+        justify-content: center;
+        margin: 0 22%;
+    }
+    .fitu p, .fitu3 p {
+        width: 80%;
+    }
+}
 
-/* Responsive */
 /* Desktop */
-@media (min-width: 992px) {
-   .navbar{
+@media only screen and (max-width: 1024px) {
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .latar img{
+        width: 100%;
+        height: unset;
+    }
+    .latar1{
+        margin-top: -35%;
+    }
+    .konten{
+        margin-left: 20%;
+    }
+    .konten h1{
+        font-size: 4rem;
+    }
+    .konten h1:last-child{
+        margin-left: 50px;
+    }
+    .konten1 img{
+        width: 35vw;
+    }
+    .konten1{
+        margin-top: -20%;
+    }
+    .tentang{
+        display: block;
+        margin-top: 6%;
+    }
+    .tentang img{
+        width: 100vw;
+        height: 80vh;
+    }
+    .tentang1{
+        margin-top: -45%;
+        padding: 0 10%;
+    }
+    .abot{
+        margin-left: unset;
+    }
+    .abot img{
+        width: 35%;
+    }
+    .abot img:first-child{
+        float: right;
+    }
+    .abot img:last-child{
+        margin-left: 40%;
+        margin-top: -30%;
+        position: relative;
+        z-index: 1;
+    }
+    .abot1{
+        padding-top: 30px;
+    }
+    .abot1 h3{
+        font-size: 3rem;
+    }
+    .abot1 p{
+        font-weight: 400;
+        font-size: .9rem;
+        width: 100%;
+    }
+    .fitur{
+        margin-top: 10%;
+    }
+    .fiturs{
+        width: 80%;
+        margin: auto;
+    }
+    .fitu, .fitu3{
+        margin: 10% 10%;
+        padding: auto;
+     }
+     .fitu3{
+         padding-top: 10%;
+     }
+     .fitu img, .fitu3 img{
+         justify-content: center;
+         margin: 0 25.5%;
+     }
+     .fitu p, .fitu3 p {
+         width: 100%;
+     }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: .9rem;
+    }
+    .latar img{
+        width: 100%;
+        height: 70vh;
+    }
+    .latar1{
+        margin-top: -40%;
+    }
+    .konten{
+        margin-left: 10%;
+    }
+    .konten h1{
+        font-size: 4rem;
+    }
+    .konten h1:last-child{
+        margin-left: 50px;
+    }
+    .konten1 img{
+        width: 35vw;
+    }
+    .konten1{
+        margin-top: -20%;
+    }
+    .tentang{
+        display: block;
+        margin-top: 10%;
+    }
+    .tentang img{
+        width: 100vw;
+        height: 70vh;
+    }
+    .tentang1{
+        margin-top: -55%;
+        padding: unset;
+    }
+    .abot{
+        margin-left: unset;
+        margin-top: 20%;
+    }
+    .abot img{
+        width: 45%;
+    }
+    .abot img:first-child{
+        float: right;
+    }
+    .abot img:last-child{
+        margin-left: 20%;
+        margin-top: -20vh;
+        position: relative;
+        z-index: 1;
+    }
+    .abot1{
+        padding-top: 30px;
+    }
+    .abot1 h3{
+        font-size: 2.5rem;
+    }
+    .abot1 p{
+        font-weight: 400;
+        font-size: .8rem;
+        width: 100%;
+    }
+    .fiturs{
+        width: 100%;
+        margin: auto;
+    }
+    .fitu, .fitu3{
+        margin: 10% 10%;
+        padding: auto;
+     }
+     .fitu3{
+         padding-top: 10%;
+     }
+     .fitu img, .fitu3 img{
+         justify-content: center;
+         margin: 0 25.5%;
+     }
+     .fitu p, .fitu3 p {
+         width: 100%;
+     }
+}
+
+/* Handphone */
+@media only screen and (max-width: 576px) {
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: .9rem;
+    }
+    .latar img{
+        width: 100%;
+        height: 50vh;
+    }
+    .latar1{
+        margin-top: -60%;
+    }
+    .konten{
+        margin-left: 10%;
+    }
+    .konten h1{
+        font-size: 2.5rem;
+    }
+    .konten h1:last-child{
+        margin-left: 20px;
+    }
+    .konten1 img{
+        width: 45vw;
+    }
+    .konten1{
+        margin-top: -10%;
+    }
+    .tentang{
+        display: none;
+    }
+    .tentang1{
+        margin-top: 30%;
+        padding: unset;
+    }
+    .abot{
+        margin-left: -25%;
+        margin-top: unset;
+    }
+    .abot img{
+        width: 35%;
+    }
+    .abot img:first-child{
+        float: right;
+    }
+    .abot img:last-child{
+        margin-left: 35%;
+        margin-top: -20vh;
+        position: relative;
+        z-index: 1;
+    }
+    .abot1{
+        padding-top: 30px;
+    }
+    .abot1 h3{
+        font-size: 2.8rem;
+    }
+    .abot1 p{
+        font-size: .9rem;
+        width: 100%;
+    }
+    .fitur{
+        margin-top: 30%;
+    }
+    .fiturs{
+        width: 100%;
+        margin: auto;
+    }
+    .fitu, .fitu3{
+        margin: 10% auto;
+        padding: auto;
+     }
+     .fitu3{
+         padding-top: 8%;
+     }
+     .fitu img, .fitu3 img{
+         justify-content: center;
+         margin: 0 24%;
+     }
+     .bawah{
+         background-color: #E7D2BF;
+         margin-top: 20%;
+         padding: 20px 0;
+     }
+     .bawah1{
+         padding: auto;
+     }
+     .bawa h3{
+         font-size: 2.5rem;
+     }
+     .bawa p{
+         padding-top: 10px;
+         font-size: .9rem;
+     }
+     .bawah1{
+         padding-top: 10px;
+     }
+     .bawah1 img{
+         width: 70%;
+     }
+     .bawa2{
+         margin-left: -30px;
+     }
+     .bawah2{
+         padding-top: 15px;
+     }
+     .bawah2 img{
+        width: 35%;
+     }
+     .bawa4{
+         margin-left: -45px;
+     }
+
+    
+}
+
+
+ /* .navbar{
        background: none !important;
    }
     .navbar-brand{
@@ -78,12 +465,15 @@
         margin-top: 30vh;
         margin-left: -10vw;
     }
-    .fitu img, .fitu1 img, .fitu2 img, .fitu4 img{
-        width: 8vw;
-        margin-left: 1vh;
-    }
-    .fitu3 img, .fitu5 img{
+     .fitu2 img, .fitu4 img{
+        width: 6.5vw;
         margin-left: 2vh;
+    }
+    .fitu img{
+        margin-left: 3.5vh;
+    }
+    .fitu3 img, .fitu5 img, .fitu1 img{
+        margin-left: 2.5vh;
     }
     .bawah1{
         margin-top: -30vh;
@@ -98,126 +488,120 @@
     }
     .bwh img, .bwh1 img, .bwh2 img{
         width: 5vw;
-    }
-    
- }
-
-/* Handphone */
-@media (max-width: 576px) {
-    .navbar{
-        background: white;
-    }
-    .nav-link{
-        font-size: 14px;
-        margin: unset;
-    }
-    .navbar-brand{
-        font-size: 30px;
-    }
-    .latar img{
-        height: 300px;
-    }
-    .konten1{
-        display: none;
-    }
-    .konten h1{
-        font-size: 50px;
-    }
-    .konten h1:last-child{
-        margin-left: 30px;
-    }
-    .latar1{
-        margin-top: -20vh;
-        margin-left: 10px;
-    }
-    .garis{
-        margin-top: -20vh;
-        width: 100px;
-        height: 150px;
-        border: 5px solid #ffff;
-    }
-    .tentang{
-        display: none;
-    }
-    .tentang1{
-        margin-top: 15vh;
-        margin-left: unset;
-    }
-    .abot h3{
-        font-size: 3rem;
-        text-align: center;
-    }
-    .abot p{
-        width: 90vw;
-        font-size: 14px;
-        text-align: center;
-    }
-    .abot p:nth-child(2){
-        padding-top: 10px;
-    }
-    .abot1{
-        display: none;
-    } 
-    .col-sm{
-        padding-top: 20px;
-    }
-    .item1 p, .item4 p{
-        width: 70%;
-    }
-    .fitur{
-        margin-top: 15vh;
-    }
-    .fitu1{
-        padding-left: 20px;
-    }
-    .fitu4{
-        padding-left: 20px;
-    }
-    .fitu img, .fitu1 img, .fitu2 img, .fitu3 img, .fitu4 img, .fitu5 img{
-        width: 25vw;
-    }
-    .fitu p, .fitu1 p, .fitu2 p, .fitu3 p, .fitu4 p, .fitu5 p{
-        font-size: 14px;
-    }
-    .fitu img, .fitu2 img{
-        margin-left: 2vh;
-    }
-    .fitu3 img, .fitu4 img, .fitu5 img{
-        margin-left: 1vh;
-    }
-    .fitu1 img{
-        margin-left: 1vh;
-    }
-    .bawah{
-        display: none;
-    }
-    .bawah1{
-        background-color: #E7D2BF;
-        width: 100vw;
-        margin-top: 10vh;
-        margin-left: -10px;
-    }
-    .bawa{
-        padding-top: 20px;
-    }
-    .bawa h3{
-        font-size: 1.5rem;
-    }
-    .bawa p{
-        margin-top: -5px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-    .bwh img, .bwh1 img, .bwh2 img{
-        width: 12vw;
-    }
-    .bwh1 img, .bwh2 img{
-        margin-left: -20px;
-    }
-    .bwh3 img, .bwh4 img{
-        width: 6vw;
-    }
-    .bwh4 img{
-        margin-left: -10px;
-    }
+    } */
+/* .navbar{
+    background: white;
 }
+.nav-link{
+    font-size: 14px;
+    margin: unset;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.latar img{
+    height: 300px;
+}
+.konten1{
+    display: none;
+}
+.konten h1{
+    font-size: 50px;
+}
+.konten h1:last-child{
+    margin-left: 30px;
+}
+.latar1{
+    margin-top: -20vh;
+    margin-left: 10px;
+}
+.garis{
+    margin-top: -20vh;
+    width: 100px;
+    height: 150px;
+    border: 5px solid #ffff;
+}
+.tentang{
+    display: none;
+}
+.tentang1{
+    margin-top: 15vh;
+    margin-left: unset;
+}
+.abot h3{
+    font-size: 3rem;
+    text-align: center;
+}
+.abot p{
+    width: 90vw;
+    font-size: 14px;
+    text-align: center;
+}
+.abot p:nth-child(2){
+    padding-top: 10px;
+}
+.abot1{
+    display: none;
+} 
+.col-sm{
+    padding-top: 20px;
+}
+.item1 p, .item4 p{
+    width: 70%;
+}
+.fitur{
+    margin-top: 15vh;
+}
+.fitu1{
+    padding-left: 20px;
+}
+.fitu4{
+    padding-left: 20px;
+}
+.fitu img, .fitu1 img, .fitu2 img, .fitu3 img, .fitu4 img, .fitu5 img{
+    width: 25vw;
+}
+.fitu p, .fitu1 p, .fitu2 p, .fitu3 p, .fitu4 p, .fitu5 p{
+    font-size: 14px;
+}
+.fitu img, .fitu2 img{
+    margin-left: 2vh;
+}
+.fitu3 img, .fitu4 img, .fitu5 img{
+    margin-left: 1vh;
+}
+.fitu1 img{
+    margin-left: 1vh;
+}
+.bawah{
+    display: none;
+}
+.bawah1{
+    background-color: #E7D2BF;
+    width: 100vw;
+    margin-top: 10vh;
+    margin-left: -10px;
+}
+.bawa{
+    padding-top: 20px;
+}
+.bawa h3{
+    font-size: 1.5rem;
+}
+.bawa p{
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.bwh img, .bwh1 img, .bwh2 img{
+    width: 12vw;
+}
+.bwh1 img, .bwh2 img{
+    margin-left: -20px;
+}
+.bwh3 img, .bwh4 img{
+    width: 6vw;
+}
+.bwh4 img{
+    margin-left: -10px;
+} */
