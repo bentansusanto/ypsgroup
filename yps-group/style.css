@@ -88,6 +88,48 @@
     .fitu p, .fitu3 p {
         width: 80%;
     }
+    .bawah{
+        background-color: #E7D2BF;
+        margin-top: 10%;
+        padding: 50px 0;
+    }
+    .bawa h3{
+        font-size: 2.5rem;
+    }
+    .bawa p{
+        padding-top: 10px;
+        font-size: .9rem;
+    }
+    .bawah1{
+        padding: auto;
+        padding-top: 10px;
+        margin-left: 30%;
+    }
+    .bawah1 img{
+        width: 40%;
+    }
+    .bawa2{
+        margin-left: -20%;
+    }
+    .bawah2{
+        padding-top: 15px;
+        margin-left: 30%;
+    }
+    .bawah2 img{
+       width: 10%;
+    }
+    .bawa4{
+        margin-left: -43%;
+    }
+    .footer{
+        background-color: #090909;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .footer p{
+       color: #ffff;
+       font-size: .9rem;
+    }
 }
 
 /* Desktop */
@@ -179,6 +221,48 @@
      .fitu p, .fitu3 p {
          width: 100%;
      }
+     .bawah{
+        background-color: #E7D2BF;
+        margin-top: 20%;
+        padding: 20px 0;
+    }
+    .bawa h3{
+        font-size: 2.5rem;
+    }
+    .bawa p{
+        padding-top: 10px;
+        font-size: .9rem;
+    }
+    .bawah1{
+        padding: auto;
+        padding-top: 10px;
+        margin-left: 30%;
+    }
+    .bawah1 img{
+        width: 40%;
+    }
+    .bawa2{
+        margin-left: -20%;
+    }
+    .bawah2{
+        padding-top: 15px;
+        margin-left: 30%;
+    }
+    .bawah2 img{
+       width: 10%;
+    }
+    .bawa4{
+        margin-left: -43%;
+    }
+    .footer{
+        background-color: #090909;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .footer p{
+       color: #ffff;
+       font-size: .9rem;
+    }
 }
 
 /* Tablet */
@@ -268,6 +352,48 @@
      .fitu p, .fitu3 p {
          width: 100%;
      }
+    .bawah{
+        background-color: #E7D2BF;
+        margin-top: 20%;
+        padding: 20px 0;
+    }
+    .bawa h3{
+        font-size: 2.5rem;
+    }
+    .bawa p{
+        padding-top: 10px;
+        font-size: .9rem;
+    }
+    .bawah1{
+        padding: auto;
+        padding-top: 10px;
+        margin-left: 30%;
+    }
+    .bawah1 img{
+        width: 60%;
+    }
+    .bawa2{
+        margin-left: -15%;
+    }
+    .bawah2{
+        padding-top: 15px;
+        margin-left: 30%;
+    }
+    .bawah2 img{
+       width: 15%;
+    }
+    .bawa4{
+        margin-left: -40%;
+    }
+    .footer{
+        background-color: #090909;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .footer p{
+       color: #ffff;
+       font-size: .9rem;
+    }
 }
 
 /* Handphone */
@@ -356,9 +482,6 @@
          margin-top: 20%;
          padding: 20px 0;
      }
-     .bawah1{
-         padding: auto;
-     }
      .bawa h3{
          font-size: 2.5rem;
      }
@@ -367,24 +490,35 @@
          font-size: .9rem;
      }
      .bawah1{
+         padding: unset;
          padding-top: 10px;
+         margin-left: unset;
      }
      .bawah1 img{
          width: 70%;
      }
      .bawa2{
-         margin-left: -30px;
+         margin-left: -10%;
      }
      .bawah2{
          padding-top: 15px;
+         margin-left: unset;
      }
      .bawah2 img{
         width: 35%;
      }
      .bawa4{
-         margin-left: -45px;
+         margin-left: -15%;
      }
-
+     .footer{
+         background-color: #090909;
+         width: 100%;
+         padding: 10px 0;
+     }
+     .footer p{
+        color: #ffff;
+        font-size: .9rem;
+     }
     
 }
 

@@ -1,6 +1,6 @@
 /* Responsive */
-/* Desktop */
-@media(min-width: 992px){
+/*  Large Desktop */
+@media only screen and (max-width: 1440px){
     .navbar-brand{
         font-size: 2rem;
     }
@@ -13,26 +13,36 @@
     }
     .latar1{
         margin-top: -50vh;
-        margin-left: 45vw;
+        float: right;
+        margin-right: 20%;
     }
     .latar1 h2{
         font-size: 4.5rem;
-    }.tentang{
-        margin-top: 28vh;
+    }
+    .tentang{
+        margin-top: unset;
+        position: relative;
+        z-index: -1;
     }
     .tentang img{
         width: 100%;
         height: 100%;
     }
     .tentang1{
-        margin-top: -55vh;
+        margin-top: -40%;
     }
     .tentang-gambar{
         width: 18.8vw;
         height: 42.5vh;
+        margin-left: 10%;
+        padding-top: 10px;
     }
     .tentang-gambar img{
         width: 18vw;
+    }
+    .tentang-conten{
+        margin-left: -30%;
+        margin-top: unset;
     }
     .tentang-conten h3{
         font-size: 4rem;
@@ -61,32 +71,68 @@
     .projek h3{
         font-size: 3rem;
     }
-    .projek-peo{
-        justify-content: center;
-        margin-left: 8vh;
+    .projek1{
+        margin: 5% auto;
+        background-color: none;
+        width: 55vw;
     }
-    .pro, .pro1, .pro2{
-        margin-top: 10vh;
-        margin-left: 2vh;
-        background-color: #0909096b;
-        width: 18vw;
+    .projek2{
+        padding: 10px 10px;
     }
-    .pro1{
-        margin-left: -2vh;
+    .pro{
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(#111 20%, #090909 100%);
+        overflow: hidden;
+        position: relative;
     }
-    .pro2{
-        margin-left: -6vh;
+    .pro img{
+        transform: scale(1.3);
+        transition: all .3s ease-out;
+    }
+    .pro:hover img{
+        transform: scale(1.1) translateY(-20px);
+        opacity: .3;
+    }
+    .description{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        color: #ffff;
+    }
+    .description h3{
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 0 0 20px;
+        transform: translateY(30px);
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+    .description p{
+        font-size: .9rem;
+        opacity: 0;
+        color: #ffff;
+        transition: all 0.3s ease-out .4s;
     }
 
-    .pro img, .pro1 img, .pro2 img{
-        width: 18vw;
+    .pro:hover .description h3{
+        opacity: 1;
+        transform: translateY(0);
     }
-    
+    .pro:hover .description p{
+        opacity: 1;
+        transform: translateY(0);
+    }
     .bawah img:last-child{
         margin-top: -30px;
     }
     .bawah1{
-        margin-top: -45vh;
+        /* background-color: y; */
+        margin: -30% auto;
+        width: 50%;
     }
     .bawah1 h3{
         font-size: 3rem;
@@ -106,18 +152,336 @@
         margin-left: -10px;
     }
     .links{
-        width: 40%;
-        margin-left: 27vw;
+        width: 70%;
+        margin: 5% auto;
+        justify-content: center;
+    }
+    .links a{
+        font-size: 1rem;
+    }
+}
+
+/* Desktop */
+@media only screen and (max-width: 1024px){
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .latar img{
+        width: 100vw;
+        height: 100vh;
+    }
+    .latar1{
+        margin-top: -50vh;
+        float: right;
+        margin-right: 10%;
+    }
+    .latar1 h2{
+        font-size: 4rem;
+    }
+    .tentang{
+        position: relative;
+        z-index: -1;
+    }
+    .tentang img{
+        width: 100%;
+        height: 100%;
+    }
+    .tentang1{
+        margin-top: -40%;
+    }
+    .tentang-gambar{
+        width: 18.8vw;
+        height: 42.5vh;
+        margin-left: 10%;
+        padding-top: 10px;
+    }
+    .tentang-gambar img{
+        width: 18vw;
+    }
+    .tentang-conten{
+        margin-left: -30%;
+        margin-top: unset;
+    }
+    .tentang-conten h3{
+        font-size: 3rem;
+    }
+    .tentang-conten p{
+        font-size: .9rem;
+        width: 75%;
+    }
+    .quotes{
+        margin-top: 7vh;
+    }
+    .quotes img{
+        width: 100vw;
+    }
+    .quotes-content{
+        margin-top: -30vh;
+        margin-left: 28vw;
+    }
+    .quotes-content p{
+        font-size: 26px;
+        width: 60%;
+    }
+    .projek{
+        margin-top: 25vh;
+    }
+    .projek h3{
+        font-size: 3rem;
+    }
+    .projek1{
+        margin: 10% auto;
+        background-color: none;
+        width: 70vw;
+    }
+    .projek2{
+        padding: 10px 10px;
+    }
+    .pro{
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(#111 20%, #090909 100%);
+        overflow: hidden;
+        position: relative;
+    }
+    .pro img{
+        transform: scale(1.3);
+        transition: all .3s ease-out;
+    }
+    .pro:hover img{
+        transform: scale(1.1) translateY(-20px);
+        opacity: .3;
+    }
+    .description{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        color: #ffff;
+    }
+    .description h3{
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 0 0 20px;
+        transform: translateY(30px);
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+    .description p{
+        font-size: .9rem;
+        opacity: 0;
+        color: #ffff;
+        transition: all 0.3s ease-out .4s;
+    }
+
+    .pro:hover .description h3{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .pro:hover .description p{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .bawah img:last-child{
+        margin-top: -30px;
+    }
+    .bawah1{
+        margin: -30% auto;
+        width: 50%;
+    }
+    .bawah1 h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .image1-peo{
+        justify-content: center;
+    }
+    .image-peo img{
+        width: 5vw;
+        margin-left: -20px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .social img{
+        margin-left: -10px;
+    }
+    .links{
+        width: 100%;
         margin-top: 4vh;
         justify-content: center;
     }
     .links a{
-        font-size: 14px;
+        font-size: 1rem;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .latar img{
+        width: 100vw;
+        height: 100%;
+    }
+    .latar1{
+        margin-top: -35vh;
+        float: right;
+        margin-right: 10%;
+    }
+    .latar1 h2{
+        font-size: 3rem;
+    }
+    .tentang{
+        position: relative;
+        z-index: -1;
+    }
+    .tentang img{
+        width: 100%;
+        height: 100%;
+    }
+    .tentang1{
+        margin-top: -40%;
+    }
+    .tentang-gambar{
+        width: 18.8vw;
+        height: 42.5vh;
+        margin-left: 10%;
+        padding-top: 10px;
+    }
+    .tentang-gambar img{
+        width: 18vw;
+    }
+    .tentang-conten{
+        margin-left: -30%;
+        margin-top: unset;
+    }
+    .tentang-conten h3{
+        font-size: 3rem;
+    }
+    .tentang-conten p{
+        font-size: .8rem;
+        width: 100%;
+    }
+    .quotes{
+        margin-top: -1%;
+    }
+    .quotes img{
+        width: 100vw;
+    }
+    .quotes-content{
+        margin-top: -20vh;
+        margin-left: 28vw;
+    }
+    .quotes-content p{
+        font-size: 1.2rem;
+        width: 60%;
+    }
+    .projek{
+        margin-top: 25vh;
+    }
+    .projek h3{
+        font-size: 3rem;
+    }
+    .projek1{
+        margin: 10% auto;
+        background-color: none;
+        width: 75vw;
+    }
+    .projek2{
+        padding: 10px 10px;
+    }
+    .pro{
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(#111 20%, #090909 100%);
+        overflow: hidden;
+        position: relative;
+    }
+    .pro img{
+        transform: scale(1.3);
+        transition: all .3s ease-out;
+    }
+    .pro:hover img{
+        transform: scale(1.1) translateY(-20px);
+        opacity: .3;
+    }
+    .description{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        color: #ffff;
+    }
+    .description h3{
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 0 0 20px;
+        transform: translateY(30px);
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+    .description p{
+        font-size: .9rem;
+        opacity: 0;
+        color: #ffff;
+        transition: all 0.3s ease-out .4s;
+    }
+    .pro:hover .description h3{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .pro:hover .description p{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .bawah img:last-child{
+        margin-top: -30px;
+    }
+    .bawah1{
+        margin: -35% auto;
+        width: 60%;
+    }
+    .bawah1 h3{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .image1-peo{
+        justify-content: center;
+    }
+    .image-peo img{
+        width: 5vw;
+        margin-left: -20px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .social img{
+        margin-left: -10px;
+    }
+    .links{
+        width: 100%;
+        margin-top: 4vh;
+        justify-content: center;
+    }
+    .links a{
+        font-size: .9rem;
     }
 }
 
 /* Handphone*/
-@media(max-width: 575px){
+@media only screen and (max-width: 576px){
     .navbar-brand{
         font-size: 1.5rem;
     }
@@ -130,9 +494,11 @@
     }
     .latar1{
         margin-top: -30vh;
+        margin-left: unset;
     }
     .latar1 h2{
         font-size: 2.5rem;
+        width: 100%;
     }
     .tentang img{
         display: none;
@@ -142,13 +508,15 @@
     }
     .tentang-gambar{
         border: unset;
+        margin: auto 30%;
+        padding-top: unset;
     }
     .tentang-gambar img{
         width: 40vw;
-        margin-left: 8vh;
     }
     .tentang-conten{
-        margin-top: 8vh;
+        margin-top: -5vh;
+        margin-left: unset;
     }
     .tentang-conten h3{
         font-size: 3rem;
@@ -157,6 +525,7 @@
     .tentang-conten p{
         font-size: .8rem;
         text-align: center;
+        width: 100%;
     }
     .quotes{
         margin-top: 12.5vh;
@@ -172,26 +541,67 @@
     .quotes-content p{
         font-size: 18px;
         width: 90%;
-    }.projek{
-        margin-top: 20vh;
+    }
+    .projek{
+        margin-top: 25vh;
     }
     .projek h3{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
-    .pro, .pro1, .pro2{
-        margin-top: 5vh;
-        margin-left: 12vh;
-        background-color: #0909096b;
+    .projek1{
+        margin: 10% auto;
+        background-color: none;
         width: 50vw;
     }
-    .pro1{
-        margin-top: 3vh;
+    .projek2{
+        padding: 10px 0;
     }
-    .pro2{
-        margin-top: 3vh;
+    .pro{
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(#111 20%, #090909 100%);
+        overflow: hidden;
+        position: relative;
     }
-    .pro img, .pro1 img, .pro2 img{
-        width: 50vw;
+    .pro img{
+        transform: scale(1.3);
+        transition: all .3s ease-out;
+    }
+    .pro:hover img{
+        transform: scale(1.1) translateY(-20px);
+        opacity: .3;
+    }
+    .description{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        color: #ffff;
+    }
+    .description h3{
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 0 0 20px;
+        transform: translateY(30px);
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+    .description p{
+        font-size: .9rem;
+        opacity: 0;
+        color: #ffff;
+        transition: all 0.3s ease-out .4s;
+    }
+
+    .pro:hover .description h3{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .pro:hover .description p{
+        opacity: 1;
+        transform: translateY(0);
     }
     .bawah img{
         display: none;
@@ -222,6 +632,7 @@
         margin-left: -15px;
     }
     .links{
+        width: 100%;
         margin: 10px -10px;
         justify-content: left;
     }
