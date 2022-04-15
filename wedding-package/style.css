@@ -1,97 +1,119 @@
 /* Responsive */
-/* Desktop */
-@media(min-width: 992px){
+/* Large Desktop */
+@media only screen and (max-width: 1440px){
     .navbar-brand{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-left: 5%;
+    }
+    .navbar-nav{
+        margin-left: 55%;
     }
     .nav-link{
-        font-size: 1rem;
+        font-size: .9rem;
+        margin-left: 15px;
     }
     .latar{
-        margin-top: 35vh;
+        margin-top: 15%;
     }
-    .latar p{
-        width: 85%;
-        font-size: 16px;
-        font-weight: 400;
+    .latars{
+        margin: 0 auto;
+        padding: 10px 0;
     }
-    .latar h5{
-        font-size: 2rem;
+    .latar1, .latar2{
+        margin:auto auto;
     }
-    .latar h3{
+    .latar2{
+        margin-top: 10%;
+    }
+    .latar1 img{
+        width: 35%;
+    }
+    .latar1 img:nth-child(2){
+        float: right;
+        margin-top: 20%;
+        margin-right: 30%;
+    }
+    .latar1 img:nth-child(3){
+        margin-left: 10%;
+        margin-top: -20%;
+    }
+    .latar2 h5{
+        font-size: 1.8rem;
+    }
+    .latar2 h3{
         font-size: 3rem;
     }
-    .latar button{
-        width: 8vw;
-        height: 4.5vh;
-        font-size: 16px;
+    .latar2 p{
+        font-size: .9rem;
+        width: 80%;
     }
-    .latar-images img{
-        margin-top: -2vh;
-        width: 18vw;
-    }
-    .latar-images img:nth-child(1){
-        margin-left: 20px;
-        margin-top: -20vh;
-    }
-    .latar-images img:nth-child(3){
-        margin-left: 40px;
-        margin-top: -15vh;
-    }
-    .latar-images img:nth-child(2){
-        margin-left: -5vh;
-        position: relative;
-        z-index: -2;
+    .latar2 button{
+        font-size: .9rem;
+        padding: 6px 8px;
     }
     .quotes{
-        margin-top: 20vh;
+        margin-top: 20%;
     }
-    .quotes1-content{  
-        margin-top: -35vh;
-        margin-left: 55vh;
+    .quotes img{
+        width: 100%;
+        height: 50vh;
     }
-    .quotes1-content p{
+    .quotes-content{
+        margin-top: -18%;
+    }
+    .quotes-content p{
+        font-size: 1.8rem;
         width: 50%;
-        color: #ffff;
-        font-size: 1.6rem;
+        margin: auto auto;
+        color: #fafafa;
+        padding: 10px 0;
     }
     .package{
-        margin-top: 35vh;
+        margin-top: 20%;
+        text-align: center;
     }
     .package h3{
-        font-size: 5.5rem;
-        text-align: center;
+        font-size: 7rem;
     }
     .package h5{
+        margin-top: -5%;
         font-size: 1.5rem;
-        text-align: center;
-        margin-top: -6vh;
     }
-    .wedpack1{
-        margin-top: 20vh;
+    .wedpack, .wedpack1{
+        margin-top: 10%;
     }
-    .wedpack2{
-        margin-top: 20vh;
-        margin-left: -20vh;
+    .wedpack-content img{
+        width: 35%;
+        margin-left: -40%;
     }
-    .wedpack2 img{
-        padding-left: 50px;
+    .wedpack1-content img{
+        width: 40%;
+        margin-left: 30%;
     }
-
-    .wedpack1 p{
-        width: 60%;
+    .wedpack-content1{
+        padding-top: unset;
+        text-align: left;
+        margin-left: -22%;
     }
-    .wedpack2 p{
-        width: 100%;
+    .wedpack1-content1{
+        padding-top: unset;
+        margin-right: -30%;
+        text-align: left;
     }
-    .wedpack3 p{
-        width: 60%;
+    .wedpack-content1 h4, .wedpack1-content1 h4{
+        font-size: 1.2rem;
+    }
+    .wedpack-content1 p, .wedpack1-content1 p{
+        font-size: .9rem;
+        width: 70%;
     }
     .bawah img:last-child{
         margin-top: -30px;
     }
     .bawah1{
-        margin-top: -45vh;
+        /* background-color: y; */
+        margin: -30% auto;
+        width: 50%;
     }
     .bawah1 h3{
         font-size: 3rem;
@@ -111,104 +133,399 @@
         margin-left: -10px;
     }
     .links{
+        width: 70%;
+        margin: 5% auto;
+        justify-content: center;
+    }
+    .links a{
+        font-size: 1rem;
+    }
+}
+
+/*  Desktop */
+@media only screen and (max-width: 1024px){
+    .navbar-brand{
+        font-size: 1.5rem;
+        margin-left: 5%;
+    }
+    .navbar-nav{
+        margin-left: 45%;
+    }
+    .nav-link{
+        font-size: .9rem;
+        margin-left: 15px;
+    }
+    .latar{
+        margin-top: 20%;
+    }
+    .latars{
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .latar1, .latar2{
+        margin:auto auto;
+    }
+    .latar2{
+        margin-top: 10%;
+    }
+    .latar1 img{
+        width: 45%;
+    }
+    .latar1 img:nth-child(2){
+        float: right;
+        margin-top: -30%;
+        margin-right: 15%;
+    }
+    .latar1 img:nth-child(3){
+        margin-left: 10%;
+        margin-top: -30%;
+    }
+    .latar2 h5{
+        font-size: 1.8rem;
+    }
+    .latar2 h3{
+        font-size: 2.5rem;
+    }
+    .latar2 p{
+        font-size: .9rem;
+        width: 80%;
+    }
+    .latar2 button{
+        font-size: .9rem;
+        padding: 6px 6px;
+    }
+    .quotes{
+        margin-top: 30%;
+    }
+    .quotes img{
+        width: 100%;
+        height: 40vh;
+    }
+    .quotes-content{
+        margin-top: -18%;
+    }
+    .quotes-content p{
+        font-size: 1.5rem;
+        width: 60%;
+        margin: auto auto;
+        color: #fafafa;
+        padding: 10px 0;
+    }
+    .package{
+        margin-top: 20%;
+        text-align: center;
+    }
+    .package h3{
+        font-size: 5.5rem;
+    }
+    .package h5{
+        margin-top: -6%;
+        font-size: 1.5rem;
+    }
+    .wedpack, .wedpack1{
+        margin-top: 10%;
+    }
+    .wedpack-content img{
         width: 40%;
-        margin-left: 27vw;
+        margin-left: -30%;
+    }
+    .wedpack1-content img{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .wedpack-content1{
+        padding-top: unset;
+        text-align: left;
+        margin-left: -16%;
+    }
+    .wedpack1-content1{
+        padding-top: unset;
+        margin-right: -15%;
+        text-align: left;
+    }
+    .wedpack-content1 h4, .wedpack1-content1 h4{
+        font-size: 1.2rem;
+    }
+    .wedpack-content1 p, .wedpack1-content1 p{
+        font-size: .9rem;
+        width: 100%;
+    }
+    .bawah img:last-child{
+        margin-top: -30px;
+    }
+    .bawah1{
+        margin: -30% auto;
+        width: 50%;
+    }
+    .bawah1 h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .image1-peo{
+        justify-content: center;
+    }
+    .image-peo img{
+        width: 5vw;
+        margin-left: -20px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .social img{
+        margin-left: -10px;
+    }
+    .links{
+        width: 100%;
         margin-top: 4vh;
         justify-content: center;
     }
     .links a{
-        font-size: 14px;
+        font-size: 1rem;
     }
-    
 }
-/* Handphone*/
-@media(max-width: 575px){
+
+/*  Tablet */
+@media only screen and (max-width: 768px){
     .navbar-brand{
         font-size: 1.5rem;
+        margin-left: unset;
+    }
+    .navbar-nav{
+        margin-left: unset;
     }
     .nav-link{
-        font-size: .8rem;
+        font-size: .9rem;
+        margin-left: unset;
     }
     .latar{
-        margin-top: 20vh;
+        margin-top: 20%;
     }
-    .latar p{
-        width: 100%;
-        font-size: 14px;
-        font-weight: 400;
+    .latars{
+        margin: 0 auto;
+        padding: 10px 0;
     }
-    .latar h5{
+    .latar1, .latar2{
+        margin:auto auto;
+    }
+    .latar2{
+        margin-top: 10%;
+    }
+    .latar1 img{
+        width: 50%;
+    }
+    .latar1 img:nth-child(2){
+        float: right;
+        margin-top: -30%;
+        margin-right: 8%;
+    }
+    .latar1 img:nth-child(3){
+        margin-left: 10%;
+        margin-top: -35%;
+    }
+    .latar2 h5{
+        font-size: 1.3rem;
+    }
+    .latar2 h3{
         font-size: 2rem;
     }
-    .latar h3{
-        font-size: 2.5rem;
+    .latar2 p{
+        font-size: .9rem;
     }
-    .latar button{
-        width: 25vw;
-        height: 4.5vh;
-        font-size: 14px;
-    }
-    .latar-images img{
-        margin-top: 5vh;
-        width: 44vw;
-        padding-bottom: 30px;
-    }
-    .latar-images img:nth-child(1){
-        margin-left: 20px;
-        margin-top: -20vh;
-    }
-    .latar-images img:nth-child(3){
-        margin-left: 40px;
-        margin-top: -17vh;
-    }
-    .latar-images img:nth-child(2){
-        margin-left: -5vh;
-        position: relative;
-        z-index: -2;
+    .latar2 button{
+        font-size: .9rem;
+        padding: 5px 5px;
     }
     .quotes{
-        margin-top: 15vh;
+        margin-top: 30%;
     }
     .quotes img{
         width: 100%;
-        height: 30vh;
+        height: 40vh;
     }
-    .quotes1-content{
-        margin-top: -20vh;
+    .quotes-content{
+        margin-top: -25%;
     }
-    .quotes1-content p{
-        font-size: 18px;
-        color: #ffff;
+    .quotes-content p{
+        font-size: 1.2rem;
+        width: 70%;
+        margin: auto auto;
+        color: #fafafa;
+        padding: 10px 0;
     }
     .package{
-        margin-top: 25vh;
+        margin-top: 30%;
+        text-align: center;
+    }
+    .package h3{
+        font-size: 4.5rem;
+    }
+    .package h5{
+        margin-top: -7%;
+        font-size: 1.2rem;
+    }
+    .wedpack, .wedpack1{
+        margin-top: 20%;
+    }
+    
+    .wedpack-content img{
+        width: 50%;
+        margin-left: -30%;
+    }
+    .wedpack1-content img{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .wedpack-content1{
+        padding-top: unset;
+        text-align: left;
+        margin-left: -10%;
+    }
+    .wedpack1-content1{
+        padding-top: unset;
+        margin-right: -15%;
+        text-align: left;
+    }
+    .wedpack-content1 h4, .wedpack1-content1 h4{
+        font-size: 1.2rem;
+    }
+    .wedpack-content1 p, .wedpack1-content1 p{
+        font-size: .9rem;
+        width: 100%;
+    }
+    .bawah img:last-child{
+        margin-top: -30px;
+    }
+    .bawah1{
+        margin: -35% auto;
+        width: 60%;
+    }
+    .bawah1 h3{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .image1-peo{
+        justify-content: center;
+    }
+    .image-peo img{
+        width: 5vw;
+        margin-left: -20px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .social img{
+        margin-left: -10px;
+    }
+    .links{
+        width: 100%;
+        margin-top: 4vh;
+        justify-content: center;
+    }
+    .links a{
+        font-size: .9rem;
+    }
+    
+    
+}
+
+/* Handphone*/
+@media only screen and (max-width: 575px){
+    .navbar-brand{
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+    .navbar-nav{
+        margin-left: unset;
+    }
+    .nav-link{
+        font-size: .9rem;
+        margin-left: unset;
+    }
+    .latar{
+        margin-top: 24%;
+    }
+    .latars{
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .latar1, .latar2{
+        margin: auto auto;
+    }
+    .latar2{
+        margin-top: 15%;
+    }
+    .latar1 img{
+        width: 50%;
+    }
+    .latar1 img:nth-child(2){
+        float: right;
+        margin-top: -30%;
+        margin-left: -5%;
+    }
+    .latar1 img:nth-child(3){
+        margin-left: 10%;
+        margin-top: -35%;
+    }
+    .latar2 h5{
+        font-size: 1.3rem;
+    }
+    .latar2 h3{
+        font-size: 2rem;
+    }
+    .latar2 p{
+        font-size: .9rem;
+        width: 100%;
+    }
+    .latar2 button{
+        font-size: .9rem;
+        padding: 5px 5px;
+    }
+    .quotes{
+        margin-top: 30%;
+    }
+    .quotes img{
+        width: 100%;
+        height: 40vh;
+    }
+    .quotes-content{
+        margin-top: -45%;
+    }
+    .quotes-content p{
+        font-size: 1.2rem;
+        color: #fafafa;
+        width: 100%;
+        margin: auto auto;
+        padding: 10px 0;
+    }
+    .package{
+        margin-top: 30%;
     }
     .package h3{
         font-size: 3.5rem;
-        text-align: center;
     }
     .package h5{
+        margin-top: -10%;
         font-size: 1.2rem;
+    }
+    .wedpack, .wedpack1{
+        margin-top: 20%;
+    }
+    .wedpack-content img, .wedpack1-content img{
+        width: 50%;
+        margin-left: unset;
+    }
+    .wedpack-content1, .wedpack1-content1{
+        padding-top: 20px;
         text-align: center;
-        margin-top: -6vh;
+        margin-left: unset;
+        margin-right: unset;
     }
-    .wedpack1 img, .wedpack2 img, .wedpack3 img{
-        width: 40vw;
+    .wedpack-content1 h4{
+        font-size: 1.2rem;
     }
-    .wedpack1 p, .wedpack2 p, .wedpack3 p{
-        padding-top: 10px;
+    .wedpack-content1 p{
+        font-size: .9rem;
         width: 100%;
-        font-size: 14px;
-    }
-    .wedpack1 h4, .wedpack2 h4, .wedpack3 h4{
-        padding-top: 10px;
-        font-size: 16px;
-    }
-    .wedpack1{
-        margin-top: 15vh;
-    }
-    .wedpack2, .wedpack3{
-        margin-top: 5vh;
     }
     .bawah img{
         display: none;
@@ -239,10 +556,17 @@
         margin-left: -15px;
     }
     .links{
+        width: 100%;
         margin: 10px -10px;
         justify-content: left;
     }
     .links a{
         font-size: 14px;
     }
+
+    
+    
+
+    
 }
+
